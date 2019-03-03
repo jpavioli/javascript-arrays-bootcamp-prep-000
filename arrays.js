@@ -12,4 +12,6 @@ function addElementToBeginningOfArray(array,element){
   return array
 }
 
-//disturctivelyAddElementToBeginningOfArray
+function disturctivelyAddElementToBeginningOfArray(array,element){
+  
+}
