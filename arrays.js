@@ -8,11 +8,15 @@ var chocolateBars = [
 
 //add an element to the beginning of an array
 function addElementToBeginningOfArray(array,element){
-  var array2 = [element,...array]
-  return array2
+  return [element,...array]
 }
 
+//distructively add an element to the beginning of an array 
 function destructivelyAddElementToBeginningOfArray(array,element){
-  array.unshift(element)
-  return array
+  return array.unshift(element)
+}
+
+// add an element to the end of an array
+function addElementToEndOfArray(array,element){
+  return [...array,element]
 }
