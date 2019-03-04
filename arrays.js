@@ -32,3 +32,9 @@ function destructivelyAddElementToEndOfArray(array,element){
 function accessElementInArray(array,index){
   return array[index]
 }
+
+//destructively remove an element from the beginning of an array
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  array.unshift()
+  return array
+}
