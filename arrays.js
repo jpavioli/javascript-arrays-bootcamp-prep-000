@@ -24,5 +24,6 @@ function addElementToEndOfArray(array,element){
 
 //destructively add element to the beginning of an array
 function destructivelyAddElementToEndOfArray(array,element){
-  
+  array.push(element)
+  return array
 }
