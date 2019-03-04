@@ -45,7 +45,7 @@ function removeElementFromBeginningOfArray(array){
 }
 
 //destructively remove an element from the end of an array
-function destructivelyRemeoveElementFromEndOfArray(array){
+function destructivelyRemoveElementFromEndOfArray(array){
   array.unshift()
   return array
 }
