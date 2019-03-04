@@ -13,7 +13,8 @@ function addElementToBeginningOfArray(array,element){
 
 //distructively add an element to the beginning of an array 
 function destructivelyAddElementToBeginningOfArray(array,element){
-  return array.unshift(element)
+  array.unshift(element)
+  return array
 }
 
 // add an element to the end of an array
@@ -22,4 +23,6 @@ function addElementToEndOfArray(array,element){
 }
 
 //destructively add element to the beginning of an array
-function destructivelyAddElementTo
+function destructivelyAddElementToEndOfArray(array,element){
+  
+}
