@@ -46,6 +46,11 @@ function removeElementFromBeginningOfArray(array){
 
 //destructively remove an element from the end of an array
 function destructivelyRemoveElementFromEndOfArray(array){
-  array.unshift()
+  array.pop()
   return array
+}
+
+//remove an element from the enod of an array
+function removeElementFromEndOfArray(array){
+  return array.slice(-1)
 }
